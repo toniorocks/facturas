@@ -1,0 +1,15 @@
+.DS_Store
+
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (es muy importante no subir la carpeta venv)
+venv/
+env/
+.env
+
+# Archivos de la base de datos local temporal si tuvieras
+*.sqlite3
